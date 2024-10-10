@@ -23,3 +23,5 @@ A Python-based backtesting framework to analyze S&P 500 strategies.
    ```sh
    git clone https://github.com/your_username/SPX_class.git
    cd SPX_class
+
+2. Open main.ipynb

@@ -32,14 +32,6 @@ SPX_class/
 └── environment.yml                     # Conda environment configuration (if using Conda)
 ```
 
-## Features
-
-- **Momentum Sector Long-Short Strategy**: Implements a momentum-based sector strategy to generate long and short signals.
-- **Benchmarking**: Compare strategy returns against an equally-weighted index benchmark.
-- **Backtesting Framework**: Perform historical backtests to analyze strategy performance.
-- **Statistical Analysis**: Calculate key statistics such as Sharpe ratio, annualized returns, and maximum drawdown.
-- **Interactive Notebook**: Use `main.ipynb` to easily interact with the code and visualize results.
-- **Modular Design**: Easily add new strategies, benchmarks, and data sources.
 
 ## Installation
 

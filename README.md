@@ -4,14 +4,15 @@ A Python-based backtesting framework designed to analyze and simulate S&P 500 in
 
 ## Project Structure
 
-```
+```plaintext
 SPX_class/
 │
 ├── data/                               # Folder containing CSV files with data used in the project
+│   ├── spx_prices.csv                  # Daily prices of S&P 500 constituents (renamed from `spx_returns_cleaned`)
 │   ├── permno_industry_map.csv         # Mapping of permno to industry codes
 │   ├── permno_sic_map.csv              # Mapping of permno to SIC codes
 │   ├── spx_presence.csv                # SPX presence matrix (whether a stock is in the index)
-│   ├── spx_prices.csv                  # Daily prices of S&P 500 constituents
+│   ├── ...
 │
 ├── strategy/                           # Contains different strategy files
 │   ├── __init__.py                     # Makes `strategy` a Python package for easy imports
@@ -80,13 +81,12 @@ SPX_class/
 
 ## Usage
 
-### Running the Jupyter Notebook
+### Running the Backtesting Framework
 
-Open the `main.ipynb` Jupyter Notebook to run the analysis:
+   To execute the backtesting analysis, run ```sh main.ipynb```. Plots and statistics are displayed at the bottom.
 
-```sh
-jupyter notebook main.ipynb
-```
+---
+
 
 ## **Adding a New Strategy**
 

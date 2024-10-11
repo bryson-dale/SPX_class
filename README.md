@@ -66,17 +66,16 @@ SPX_class/
      ```sh
      pip install -r requirements.txt
      ```
+4. **Data Preparation**
 
-## 2.4 Data Preparation
+   Before running the backtesting framework, ensure that the `spx_returns_cleaned` file is added to the `data` folder. Once added, rename the file to `spx_prices.csv` to maintain consistency with the existing data structure and file references.
 
-Before running the backtesting framework, ensure that the `spx_returns_cleaned` file is added to the `data` folder. Once added, rename the file to `spx_prices.csv` to maintain consistency with the existing data structure and file references.
-
-```plaintext
-SPX_class/
-│
-├── data/
-│   ├── spx_prices.csv                  # Renamed file: formerly `spx_returns_cleaned`
-│   ├── ...
+   ```plaintext
+   SPX_class/
+   │
+   ├── data/
+   │   ├── spx_prices.csv                  # Renamed file: formerly `spx_returns_cleaned`
+   │   ├── ...
 
 
 ## Usage
